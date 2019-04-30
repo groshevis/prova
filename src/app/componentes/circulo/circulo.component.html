@@ -1,0 +1,10 @@
+<ion-title>
+  Círculo
+</ion-title>
+
+<ion-content>
+  <ion-input [(ngModel)] = "raio">Coloque o número da base:</ion-input>
+ <ion-input [(ngModel)] = "pi"> Insira a altura:</ion-input>
+ <ion-button color= "primary" expand = "full" (click) = "calcular()">Calcular</ion-button>
+  {{resultado}}
+</ion-content>
