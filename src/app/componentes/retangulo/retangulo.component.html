@@ -1,0 +1,10 @@
+<ion-title>
+    Área do retângulo
+</ion-title>
+
+  <ion-content>
+    <ion-input [(ngModel)]="lado1"> Coloque o valor do lado 1: </ion-input>
+    <ion-input [(ngModel)]="lado2"> Coloque o valor do lado 2: </ion-input>
+   <ion-button color= "primary" expand = "full" (click) = "calcular()">Calcular</ion-button>
+    {{resultado}}
+  </ion-content>
